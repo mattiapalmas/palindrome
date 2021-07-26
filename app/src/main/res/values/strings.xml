@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Palindrome</string>
+    <string name="is_it_a_palindrome">Is it a Palindrome?</string>
+    <string name="write_something">Write something</string>
+    <string name="check">Check</string>
+    <string name="text_is_palindrome">%1$s is palindrome</string>
+    <string name="text_is_not_palindrome">%1$s is not palindrome</string>
+</resources>
