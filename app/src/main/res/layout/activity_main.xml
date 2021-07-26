@@ -23,7 +23,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/text_field_layout"
             android:layout_width="match_parent"
@@ -35,7 +34,10 @@
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/text_field_et"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:imeOptions="actionDone"
+                android:inputType="text"
+                android:maxLines="1" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
@@ -53,7 +55,7 @@
             android:id="@+id/is_palindrome_result_tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/huge_margin"
+            android:layout_marginTop="@dimen/medium_margin"
             android:padding="@dimen/small_padding"
             android:textColor="@color/white"
             android:textStyle="bold"

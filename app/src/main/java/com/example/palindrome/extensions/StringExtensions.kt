@@ -1,5 +1,7 @@
 package com.example.palindrome.extensions
 
-fun String.isPalindrome() : Boolean {
-    return this.lowercase() == this.lowercase().reversed()
+import java.util.*
+
+fun String.isPalindrome(): Boolean {
+    return this.toLowerCase(Locale.getDefault()) == this.toLowerCase(Locale.getDefault()).reversed()
 }
